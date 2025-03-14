@@ -1,4 +1,4 @@
-from docx import Document
+from docx import Document # type: ignore
 
 def generate_report(asset, threat, likelihood, impact):
     doc = Document()
